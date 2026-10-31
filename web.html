@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cours informatique | La Cybersécurité</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b1020;
+    color: #e5e7eb;
+    line-height: 1.7;
+}
+
+header {
+    text-align: center;
+    padding: 55px 20px;
+    background: linear-gradient(135deg, #111827, #312e81);
+    border-bottom: 2px solid #6366f1;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    color: #a5b4fc;
+}
+
+header p {
+    margin-top: 10px;
+    color: #cbd5e1;
+}
+
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 18px;
+}
+
+section {
+    background: #151c2e;
+    padding: 24px;
+    margin-bottom: 22px;
+    border-radius: 14px;
+    border: 1px solid #293449;
+}
+
+h2 {
+    color: #818cf8;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #c4b5fd;
+    margin: 15px 0 8px;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+code, .example {
+    display: block;
+    background: #090e1a;
+    padding: 14px;
+    margin-top: 12px;
+    border-radius: 8px;
+    color: #86efac;
+    overflow-wrap: anywhere;
+}
+
+strong {
+    color: #c4b5fd;
+}
+
+.discord {
+    text-align: center;
+    background: #312e81;
+    padding: 30px 20px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+.discord a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background: #5865F2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.discord a:hover {
+    background: #4752c4;
+}
+
+footer {
+    text-align: center;
+    color: #94a3b8;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>La Cybersécurité</h1>
+    <p>Protéger les systèmes, les réseaux et les données contre les cybermenaces</p>
+</header>
+
+<main>
+
+<section>
+    <h2>1. Qu'est-ce que la cybersécurité ?</h2>
+    <p>
+        La <strong>cybersécurité</strong> englobe l'ensemble des technologies, des processus et des pratiques conçus pour protéger les réseaux, 
+        les ordinateurs, les programmes et les données contre les attaques, les dommages ou les accès non autorisés.
+    </p>
+
+    <h3>La Triade CID (Les 3 piliers fondamentaux)</h3>
+    <ul>
+        <li><strong>Confidentialité :</strong> S'assurer que seules les personnes autorisées peuvent accéder aux données sensibles.</li>
+        <li><strong>Intégrité :</strong> Garantir que les données ne sont pas modifiées, corrompues ou supprimées par des tiers de manière illégitime.</li>
+        <li><strong>Disponibilité :</strong> Veiller à ce que les services et les données restent accessibles aux utilisateurs légitimes à tout moment par exemple si un équipement ne fonctionne plus un autre prend le relais</li>
+    </ul>
+</section>
+
+<section>
+    <h2>2. Les principales menaces informatiques</h2>
+    <p>
+        Les cybercriminels utilisent différentes techniques pour compromettre la sécurité des systèmes et des utilisateurs.
+    </p>
+
+    <h3>Les attaques courantes</h3>
+    <ul>
+        <li><strong>Phishing (Hameçonnage) :</strong> Technique d'ingénierie sociale où un pirate se fait passer pour un organisme de confiance (banque, impôts) pour voler des identifiants.</li>
+        <li><strong>Ransomware (Rongiciel) :</strong> Logiciel malveillant qui chiffre toutes les données d'un ordinateur et exige une rançon en échange de la clé de déchiffrement.</li>
+        <li><strong>Malware (Logiciel malveillant) :</strong> Terme général désignant les virus, chevaux de Troie ou logiciels espions conçus pour nuire à un système.</li>
+        <li><strong>Attaque DDoS/Dos :</strong> Submerger un serveur ou un site web de trafic factice pour le rendre totalement indisponible. DDos= plusieur machines, Dos= une seul machine</li>
+    </ul>
+</section>
+
+<section>
+    <h2>3. Les mécanismes de défense</h2>
+    <p>
+        Pour faire face à ces menaces, les administrateurs et les utilisateurs mettent en place des barrières de protection.
+    </p>
+
+    <h3>Les outils et méthodes clés</h3>
+    <ul>
+        <li><strong>Chiffrement :</strong> Transformer des données en un code illisible sans clé de déchiffrement (ex: HTTPS, protocoles de chiffrement de disque).</li>
+        <li><strong>Authentification à deux facteurs (2FA / MFA) :</strong> Ajouter une étape de validation supplémentaire en plus du mot de passe (code reçu par SMS ou application d'authentification).</li>
+        <li><strong>Pare-feu (Firewall) :</strong> Filtrer les flux de trafic réseau entrants et sortants pour bloquer les connexions malveillantes.</li>
+        <li><strong>Mises à jour régulières :</strong> Corriger rapidement les failles de sécurité découvertes dans les logiciels et les systèmes d'exploitation.</li>
+    </ul>
+
+    <div class="example">
+        Bonne pratique : Mot de passe fort + 2FA activé + Faire des mise à jour réglière des logiciels
+    </div>
+</section>
+
+<section> 
+    <h2>4. Les types de failles</h2>
+    <p>
+        Il y a différents types de faille dans des logiciels ou des systèmes d'exploitation avec un score d'importance différents.
+    </p>
+
+    <ul>
+        <li><strong>Zero day:</strong> est une faille de sécurité informatique dans un logiciel ou un matériel qui est totalement inconnue du fabricant ou des éditeurs du programme et il on 0 jour pour la fix </li>
+        <li><strong>One click:</strong> l'utilisateur a besoin que de cliquer 1 fois sur un lien ou une pièce jointe pour être infecté</li>
+        <li><strong>Zero click:</strong> l'utilisateur n'a pas besoin de cliquer pour être infecté, l'attaquant passe par une faille discrètement</li>
+    </ul>
+
+</section>
+
+<section>
+    <h2>À retenir</h2>
+    <ul>
+        <li>La cybersécurité repose sur la triade <strong>CID</strong> (Confidentialité, Intégrité, Disponibilité).</li>
+        <li>Le <strong>phishing</strong> cherche à tromper l'humain, tandis que le <strong>malware</strong> cible directement la machine.</li>
+        <li>Le chiffrement protège les données pendant leur transport ou leur stockage.(bitlocker)</li>
+        <li>L'authentification à deux facteurs (2FA) renforce considérablement la sécurité des comptes personnels et professionnels.</li>
+        <li>La prévention et la vigilance restent les meilleures armes contre la grande majorité des cyberattaques.</li>
+    </ul>
+</section>
+
+<section class="discord">
+    <h2>Rejoins notre serveur Discord</h2>
+    <p>
+        Envie de parler informatique, réseaux et cybersécurité avec la communauté ?
+    </p>
+
+    <a href="https://discord.gg/Vk47rW3Bcq" target="_blank" rel="noopener noreferrer">
+        discord.gg/1020sec
+    </a>
+</section>
+
+</main>
+
+<footer>
+    Cours sur la Cybersécurité
+</footer>
+
+</body>
+</html>
