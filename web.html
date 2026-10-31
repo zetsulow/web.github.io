@@ -134,4 +134,85 @@ footer {
     <h3>Les deux acteurs principaux</h3>
     <ul>
         <li><strong>Le Client (Navigateur Web) :</strong> Envoie des requêtes (ex: Chrome, Firefox) et interprète les langages client-side pour afficher la page (HTML, CSS, JavaScript).</li>
-        <li><strong>Le Serveur Web :</strong> Reçoit les requêtes, traite la logique métier sur le serveur (via PHP, Python, Node
+        <li><strong>Le Serveur Web :</strong> Reçoit les requêtes, traite la logique métier sur le serveur (via PHP, Python, Node.js) et renvoie un résultat lisible par le navigateur.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>2. Sites Statiques vs Sites Dynamiques</h2>
+    <p>
+        Selon la manière dont le contenu est généré, on distingue deux types de technologies web.
+    </p>
+
+    <h3>Les différences clés</h3>
+    <ul>
+        <li><strong>Web Statique (HTML/CSS) :</strong> Le serveur renvoie directement le fichier tel qu'il est stocké. Tous les utilisateurs voient exactement le même contenu.</li>
+        <li><strong>Web Dynamique (PHP/SQL) :</strong> Le serveur exécute du code avant d'envoyer la page. Le contenu peut changer selon l'utilisateur, l'heure ou les données d'une base de données.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>3. Intégrer du PHP dans du HTML</h2>
+    <p>
+        PHP (Hypertext Preprocessor) est un langage d'exécution côté serveur. Il s'insère directement dans une structure HTML à l'aide de balises spécifiques <code>&lt;?php ... ?&gt;</code>.
+    </p>
+
+    <code>&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Page Dynamique&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;&lt;?php echo "Bienvenue sur mon site !"; ?&gt;&lt;/h1&gt;
+    &lt;p&gt;Aujourd'hui nous sommes le : &lt;?php echo date('d/m/Y'); ?&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code>
+
+    <div class="example">
+        Note : Le fichier doit obligatoirement avoir l'extension .php pour que le serveur exécute le code avant de l'envoyer au navigateur.
+    </div>
+</section>
+
+<section>
+    <h2>4. Les trois langages fondamentaux du web</h2>
+    <p>
+        Une page web moderne est la combinaison de plusieurs technologies complémentaires.
+    </p>
+
+    <ul>
+        <li><strong>HTML (Structure) :</strong> Définit le squelette et le contenu de la page (titres, paragraphes, images).</li>
+        <li><strong>CSS (Apparence) :</strong> Gère le style visuel, les couleurs, la typographie et la mise en page responsive.</li>
+        <li><strong>JavaScript (Interactivité) :</strong> Exécuté par le navigateur pour rendre la page dynamique côté client sans recharger la page.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>À retenir</h2>
+    <ul>
+        <li>Le <strong>Client</strong> demande la page, le <strong>Serveur</strong> la fabrique et la renvoie.</li>
+        <li>Le code <strong>PHP</strong> n'est jamais visible par l'utilisateur : il est traduit en HTML pur par le serveur.</li>
+        <li>Le <strong>HTML</strong> structure, le <strong>CSS</strong> décore, le <strong>JS</strong> anime, et le <strong>PHP</strong> traite les données.</li>
+        <li>Pour exécuter du PHP en local, il faut un serveur web comme <strong>XAMPP</strong>, <strong>WampServer</strong> ou <strong>Docker</strong>.</li>
+    </ul>
+</section>
+
+<section class="discord">
+    <h2>Rejoins notre serveur Discord</h2>
+    <p>
+        Envie de parler informatique, réseaux et cybersécurité avec la communauté ?
+    </p>
+
+    <a href="https://discord.gg/Vk47rW3Bcq" target="_blank" rel="noopener noreferrer">
+        discord.gg/1020sec
+    </a>
+</section>
+
+</main>
+
+<footer>
+    Cours sur la Structure du Web & PHP
+</footer>
+
+</body>
+</html>
